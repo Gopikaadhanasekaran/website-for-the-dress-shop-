@@ -1,0 +1,155 @@
+<html>
+<head>
+<b>Dress shop<b>
+<title> login page</title>
+</head>
+<style>
+      .hero {
+      height: 100vh;
+      background: url('imges4.jfif') no-repeat center center;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .hero h1 {
+     
+      font-size: 4rem;
+    }
+
+
+.hero h1 {
+  font-size: 3rem;
+}
+.hero p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 992px) {
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+  }
+.navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .btn-lg {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+  }
+}
+.card-img-top {
+      height: 150px;
+      object-fit: cover;
+    }
+
+    
+</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Dress shop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+          aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+<div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#services">service </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#online appointment">appointment</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<section class="hero">
+        <div class="text-center">
+          <h1>Welcome to Our Dress shop</h1>
+          <p class="lead text-black">More collections</p>
+          <a href="#services" class="btn btn-primary btn-lg">Learn More</a>
+        </div>
+      </section>
+      <section id="services" class="py-5"></section>
+        <div class="container">
+          <div class="row text-center">
+            <h2>Our Services</h2>
+            <p class="lead">We offer a wide range of  services to meet your needs.Casual Summer Dress
+              This light and airy summer dress features a vibrant floral print that captures the essence of warm sunny days. The dress is made from a breathable cotton fabric, ensuring comfort and ease during outdoor gatherings. It has a fitted bodice with a flattering sweetheart neckline and flows into a flared skirt that falls just above the knee. With adjustable spaghetti straps and a hidden side zipper, this dress combines style with practicality, making it perfect for picnics or casual brunches. Elegant Evening Gown
+              This stunning evening gown is crafted from luxurious satin, offering a sleek and sophisticated silhouette. The deep V-neckline adds a touch of allure, while the fitted bodice highlights the waist, transitioning into a flowing A-line skirt that gracefully sweeps the floor. Delicate lace appliqués embellish the gown, adding a hint of romance. Ideal for formal events, this dress pairs beautifully with sparkling accessories and high heels, ensuring you make a memorable entrance.</p>
+          </div>
+          <div class="row mt-4">
+<div class="col-md-4">
+              <div class="card">
+                <img src="images6.jfif" class="card-img-top" alt="Service 1">
+                <div class="card-body">
+                  <h5 class="card-title">About us</h5>
+                  <p class="card-text">Good choice for LOOKING BEAUTY</p>
+                </div>
+              </div>
+            </div>
+<div class="col-md-4">
+              <div class="card">
+                <img src="desserts-_v8.jpeg" class="card-img-top" alt="Service 2">
+                <div class="card-body">
+                  <h5 class="card-title">CONTACT US</h5>
+                  <p class="card-text">8909056908</p>
+                </div>
+              </div>
+            </div>
+<div class="col-md-4">
+              <div class="card">
+                <img src="20240828_080734081_iOS.webp" class="card-img-top" alt="Service 3">
+                <div class="card-body">
+                  <h5 class="card-title">GMAIL</h5>
+                  <p class="card-text">dress@gmail.com</p>
+                </div>
+                <div class="container mt-5">
+        <h2>Login</h2>
+        <form>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" class="form-control" id="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" class="form-control" id="password" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+    </div>
+    <hr>
+        
+    <h2>Sign Up</h2>
+    <form action="your_signup_endpoint" method="POST">
+        <div class="form-group">
+            <label for="new_username">Username:</label>
+            <input type="text" class="form-control" id="new_username" name="new_username" required aria-label="New Username">
+        </div>
+        <div class="form-group">
+            <label for="new_password">Password:</label>
+            <input type="password" class="form-control" id="new_password" name="new_password" required aria-label="New Password">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required aria-label="Email">
+        </div>
+        <button type="submit" class="btn btn-success">Sign Up</button>
+    </form>
+</div>
+                
+    
+</body>
+</html>
+    </html>
+            
